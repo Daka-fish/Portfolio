@@ -19,19 +19,19 @@ const Home = () => {
         </div>
       </section>
       <section className="sns text-center">
-        <h1 className="text-3xl font-bold py-5">SNS</h1>
+        <h1 className="text-4xl font-bold py-6">SNS</h1>
         <ul className="flex justify-center items-center gap-10">
-          <li className="p-5 bg-white rounded-lg shadow-lg">
+          <li className="p-5 rounded-lg shadow-lg">
             <a href="#">
               <FaXTwitter className="w-16 h-16" />
             </a>
           </li>
-          <li className="p-5 bg-white rounded-lg shadow-lg">
+          <li className="p-5 rounded-lg shadow-lg">
             <a href="#">
               <FaGithubSquare className="w-16 h-16" />
             </a>
           </li>
-          <li className="p-5 bg-white rounded-lg shadow-lg">
+          <li className="p-5 rounded-lg shadow-lg">
             <a href="#">
               <FaYoutube className="w-16 h-16" />
             </a>
