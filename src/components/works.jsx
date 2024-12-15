@@ -7,7 +7,7 @@ export const Works = [
     image: "src/images/ito.png",
     link: "/products/ito",
     alt: "ito image",
-    text: "プラグインはボードゲーム「ito」をMinecraft内で遊べるように再現したプラグインです。",
+    text: "プラグインはボードゲーム「ito」を再現したプラグインです。",
   },
   {
     id: 2,
@@ -15,6 +15,22 @@ export const Works = [
     image: "src/images/ito.png",
     link: "/products/hit_and_brow",
     alt: "hit&brow image",
-    text: "世界のアソビ大全51より「Hit&Brow」をMinecraft内で遊べるように再現した",
+    text: "世界のアソビ大全51より「Hit&Brow」を再現したプラグインです",
+  },
+  {
+    id: 3,
+    title: "人狼",
+    image: "src/images/ito.png",
+    link: "/products/hit_and_brow",
+    alt: "hit&brow image",
+    text: "世界のアソビ大全51より「Hit&Brow」を再現したプラグインです",
+  },
+  {
+    id: 4,
+    title: "カジノ",
+    image: "src/images/ito.png",
+    link: "/products/hit_and_brow",
+    alt: "hit&brow image",
+    text: "世界のアソビ大全51より「Hit&Brow」を再現したプラグインです",
   },
 ];
