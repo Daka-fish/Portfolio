@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="pt-16 pb-14">
-      <img
-        src="src\images\twitterヘッダーkuro_uo.png"
-        alt=""
-        className="mx-auto"
-      />
+      <div className="main-image mb-8">
+        <img
+          src="src\images\Portfolio.png"
+          alt="main-image"
+          className="mx-auto h-96"
+        />
+      </div>
+
       <section className="main mb-10">
         <h2 className="text-4xl font-bold py-2 text-center">About</h2>
         <div className="text-center">
@@ -32,7 +35,7 @@ const Home = () => {
         </div>
         <Link
           to={"/products"}
-          className="my-5 py-2 px-7 rounded-lg font-bold text-lg duration-300 hover:bg-pink-300 border-2 border-black"
+          className="my-5 py-2 px-7 rounded-lg font-bold text-lg duration-300 hover:bg-green-300 border-2 border-black"
         >
           View more
         </Link>
